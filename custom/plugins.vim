@@ -23,5 +23,6 @@ Plugin 'jiangmiao/auto-pairs'
 Plugin 'preservim/nerdtree'
 Plugin 'ervandew/supertab'
 Plugin 'SirVer/ultisnips'
+Plugin 'davidhalter/jedi-vim'
 Plugin 'Yggdroot/LeaderF', { 'do': ':LeaderfInstallCExtension' }
 call vundle#end()
