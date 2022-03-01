@@ -8,13 +8,13 @@ noremap <C-L>     <C-W>l
 noremap <C-N> <ESC>:bn<CR>
 noremap <C-M> <ESC>:bp<CR>
 
+noremap <C-K> <C-U>
+noremap <C-J> <C-D>
+
 noremap <Leader>a <C-u>:call gitblame#echo()<CR>
 noremap <Leader>n <ESC>:NERDTreeToggle<CR>
 noremap <Leader>b <ESC>:TagbarToggle<CR>
 noremap <Leader>p <ESC>:Autopep8<CR>
-
-noremap <Leader>uu <C-U>
-noremap <Leader>dd <C-D>
 
 nmap s <Plug>(easymotion-overwin-f2)
 
