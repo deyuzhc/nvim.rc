@@ -6,6 +6,8 @@
 "	source rc
 "endfor
 
+source ~/.config/nvim/custom/shortcut.vim
+
 source ~/.config/nvim/custom/basic.vim
 source ~/.config/nvim/custom/plugins.vim
 source ~/.config/nvim/custom/extensions.vim

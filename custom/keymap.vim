@@ -10,6 +10,7 @@ noremap <C-K> <C-U>
 noremap <C-J> <C-D>
 
 noremap <Leader>a <C-u>:call gitblame#echo()<CR>
+noremap <Leader>m <ESC>:call shortcut#vmdpreview()<CR>
 noremap <Leader>n <ESC>:NERDTreeToggle<CR>
 noremap <Leader>b <ESC>:TagbarToggle<CR>
 noremap <Leader>p <ESC>:Autopep8<CR>

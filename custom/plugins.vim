@@ -4,6 +4,8 @@ set rtp+=~/.vim/bundle/Vundle.vim
 
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'godlygeek/tabular'
+Plugin 'preservim/vim-markdown'
 Plugin 'keith/swift.vim'
 Plugin 'w0rp/ale'
 Plugin 'fatih/vim-go'
