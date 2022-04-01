@@ -2,6 +2,7 @@
 * [Custom keymaps](#custom-keymaps)
   * [motion](#motion)
   * [view](#view)
+  * [command](#command)
 
 # About
 
@@ -28,20 +29,24 @@ git clone https://github.com/deyuzhc/nvim.rc.git ~/.config/nvim
 
 ## Custom keymaps
 
-`mapleader` was set to `;`
+`<Leader>` was set to `;` by default
 
 ### motion
 
 - page up: `C-k`
 - page down: `C-j`
 
-- jump upward: `; k` (thanks to [easy-motion](https://github.com/easymotion/vim-easymotion.git))
-- jump downward: `; j` (thanks to [easy-motion](https://github.com/easymotion/vim-easymotion.git))
-- jump to a word: `; s` (thanks to [easy-motion](https://github.com/easymotion/vim-easymotion.git))
+- jump upward: `<Leader> k` (thanks to [easy-motion](https://github.com/easymotion/vim-easymotion.git))
+- jump downward: `<Leader> j` (thanks to [easy-motion](https://github.com/easymotion/vim-easymotion.git))
+- jump to a word: `<Leader> s` or simply `s` (thanks to [easy-motion](https://github.com/easymotion/vim-easymotion.git))
 
 - previous buffer: `C-m`
 - next buffer: `C-n`
 
 ### view
 
-- nerdtree: `; n` (thanks to [nerdtree](https://github.com/preservim/nerdtree.git))
+- nerdtree: `<Leader> n` (thanks to [nerdtree](https://github.com/preservim/nerdtree.git))
+
+### command
+
+- run command: `<Leader> !`

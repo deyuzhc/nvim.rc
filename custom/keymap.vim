@@ -14,6 +14,7 @@ noremap <Leader>m <ESC>:call shortcut#vmdpreview()<CR>
 noremap <Leader>n <ESC>:NERDTreeToggle<CR>
 noremap <Leader>b <ESC>:TagbarToggle<CR>
 noremap <Leader>p <ESC>:Autopep8<CR>
+noremap <Leader>! <ESC>:!
 
 nmap s <Plug>(easymotion-overwin-f2)
 
