@@ -18,5 +18,14 @@ noremap <Leader>! <ESC>:!
 
 nmap s <Plug>(easymotion-overwin-f2)
 
-map <Leader>j <Plug>(easymotion-j)
-map <Leader>k <Plug>(easymotion-k)
+" emacs-style
+map gss <Plug>(easymotion-overwin-f2)
+map <Leader>jw <Plug>(easymotion-bd-f)
+map <Leader>jl <Plug>(easymotion-bd-jk)
+
+map <Leader>ft <ESC>:NERDTreeToggle<CR>
+
+" vim-style
+" map <Leader>j <Plug>(easymotion-j)
+" map <Leader>k <Plug>(easymotion-k)
+map <Leader>l <Plug>(easymotion-bd-jk)
