@@ -29,24 +29,27 @@ git clone https://github.com/deyuzhc/nvim.rc.git ~/.config/nvim
 
 ## Custom keymaps
 
-`<Leader>` was set to `;` by default
+`<Leader>` was set to `;` [by default](custom/extensions.vim)
 
 ### motion
 
 - page up: `C-k`
 - page down: `C-j`
-
-- jump upward: `<Leader> k` (thanks to [easy-motion](https://github.com/easymotion/vim-easymotion.git))
-- jump downward: `<Leader> j` (thanks to [easy-motion](https://github.com/easymotion/vim-easymotion.git))
-- jump to a word: `<Leader> s` or simply `s` (thanks to [easy-motion](https://github.com/easymotion/vim-easymotion.git))
-
+- jump to a line (thanks to [easy-motion](https://github.com/easymotion/vim-easymotion.git)):
+  - vim-style: `<Leader> l`
+  - emacs-style: `<Leader> jl`
+- jump to a word (thanks to [easy-motion](https://github.com/easymotion/vim-easymotion.git)):
+  - vim-style: `<Leader> s` or simply `s`
+  - emacs-style: `<Leader> jw` or `gss`
 - previous buffer: `C-m`
 - next buffer: `C-n`
 
 ### view
 
-- nerdtree: `<Leader> n` (thanks to [nerdtree](https://github.com/preservim/nerdtree.git))
+- nerdtree (thanks to [nerdtree](https://github.com/preservim/nerdtree.git)):
+  - vim-style: `<Leader> n`
+  - emacs-style: `<Leader> ft`
 
 ### command
 
-- run command: `<Leader> !`
+- run a command: `<Leader> !`
