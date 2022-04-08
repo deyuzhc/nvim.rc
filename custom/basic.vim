@@ -15,6 +15,7 @@ set hlsearch
 set laststatus=2
 set cursorline
 set colorcolumn=80,120
+set clipboard+=unnamedplus
 
 set nowrap
 set smartindent
