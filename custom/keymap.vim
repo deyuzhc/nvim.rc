@@ -6,6 +6,10 @@ noremap <C-L>     <C-W>l
 noremap <C-N> <ESC>:bn<CR>
 noremap <C-M> <ESC>:bp<CR>
 
+noremap <Leader>bp <ESC>:bp<CR>
+noremap <Leader>bn <ESC>:bn<CR>
+noremap <Leader>fs <ESC>:w<CR>
+
 noremap <C-K> <C-U>
 noremap <C-J> <C-D>
 
