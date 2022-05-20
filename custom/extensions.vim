@@ -42,7 +42,7 @@ let g:ale_completion_autoimport = 1
 let g:ale_sign_error = 'X'
 let g:ale_sign_warning = '⚠'
 let g:ale_lint_delay = 1000
-let b:ale_linters = {'python': ['flake8']}
+let b:ale_linters = {'python': ['flake8'], 'javascript': ['eslint']}
 let b:ale_fixers = ['autopep8', 'yapf']
 
 let g:autopep8_disable_show_diff=1
