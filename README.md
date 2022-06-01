@@ -33,25 +33,18 @@ git clone https://github.com/deyuzhc/nvim.rc.git ~/.config/nvim
 
 `<Leader>` was set to `;` [by default](custom/extensions.vim)
 
-### motion
-
-- page up: `C-k`
-- page down: `C-j`
-- jump to a line (thanks to [easy-motion](https://github.com/easymotion/vim-easymotion.git)):
-  - vim-style: `<Leader> l`
-  - emacs-style: `<Leader> jl`
-- jump to a word (thanks to [easy-motion](https://github.com/easymotion/vim-easymotion.git)):
-  - vim-style: `<Leader> s` or simply `s`
-  - emacs-style: `<Leader> jw` or `gss`
-- previous buffer: `C-m`
-- next buffer: `C-n`
-
-### view
-
-- nerdtree (thanks to [nerdtree](https://github.com/preservim/nerdtree.git)):
-  - vim-style: `<Leader> n`
-  - emacs-style: `<Leader> ft`
-
-### command
-
-- run a command: `<Leader> !`
+| keymap              | functions            |
+|---------------------|----------------------|
+| `C-k`               | page up              |
+| `C-j`               | page down            |
+| `C-m`               | previous buffer      |
+| `C-n`               | next buffer          |
+| `<Leader> k`        | jump to a line above |
+| `<Leader> j`        | jump to a line below |
+| `<Leader> s` or `s` | jump to a word       |
+| `<Leader> t`        | toggle nerdtree      |
+| `<Leader> !`        | run a command        |
+| `<Leader> fs`       | save buffer          |
+| `<Leader> fj`       | explore              |
+| `<Leader> bx`       | delete buffer        |
+| `<Leader> bb`       | toggle tagbar        |

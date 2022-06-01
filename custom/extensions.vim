@@ -3,7 +3,7 @@
 let g:mapleader = ";"
 
 let g:tagbar_sort = 0
-let g:tagbar_autopreview = 1
+let g:tagbar_autopreview = 0
 
 let g:airline_theme='violet'
 let g:airline_powerline_fonts = 1
