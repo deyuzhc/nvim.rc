@@ -9,6 +9,7 @@ noremap <C-M> <ESC>:bp<CR>
 noremap <Leader>bp <ESC>:bp<CR>
 noremap <Leader>bn <ESC>:bn<CR>
 noremap <Leader>fs <ESC>:w<CR>
+noremap <Leader>bx <ESC>:bd<CR>
 
 noremap <C-K> <C-U>
 noremap <C-J> <C-D>
@@ -16,7 +17,7 @@ noremap <C-J> <C-D>
 noremap <Leader>a <C-u>:call gitblame#echo()<CR>
 noremap <Leader>m <ESC>:call shortcut#vmdpreview()<CR>
 noremap <Leader>t <ESC>:NERDTreeToggle<CR>
-noremap <Leader>b <ESC>:TagbarToggle<CR>
+noremap <Leader>bb <ESC>:TagbarToggle<CR>
 noremap <Leader>p <ESC>:Autopep8<CR>
 noremap <Leader>! <ESC>:!
 

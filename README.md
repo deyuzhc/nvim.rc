@@ -24,7 +24,9 @@ git clone https://github.com/deyuzhc/nvim.rc.git ~/.config/nvim
 
 3. execute `:PluginInstall` in your neovim to install plugins
 
-4. enjoy yourself~
+4. (optional) execute `pip install pynvim` for python support
+
+5. enjoy yourself~
 
 
 ## Custom keymaps
