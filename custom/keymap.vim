@@ -12,6 +12,8 @@ noremap <Leader>fs <ESC>:w<CR>
 noremap <Leader>fj <ESC>:Ex<CR>
 noremap <Leader>bx <ESC>:bd<CR>
 
+noremap <Leader>fr <ESC>:ALEFindReferences<CR>
+
 noremap <C-K> <C-U>
 noremap <C-J> <C-D>
 

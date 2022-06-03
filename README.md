@@ -1,8 +1,11 @@
-* [Installation](#installation)
-* [Custom keymaps](#custom-keymaps)
-  * [motion](#motion)
-  * [view](#view)
-  * [command](#command)
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
+**Table of Contents**
+
+- [About](#about)
+    - [Installation](#installation)
+    - [Custom keymaps](#custom-keymaps)
+
+<!-- markdown-toc end -->
 
 # About
 
@@ -48,3 +51,4 @@ git clone https://github.com/deyuzhc/nvim.rc.git ~/.config/nvim
 | `<Leader> fj`       | explore              |
 | `<Leader> bx`       | delete buffer        |
 | `<Leader> bb`       | toggle tagbar        |
+| `<Leader> fr`       | find references      |
