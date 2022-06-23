@@ -11,6 +11,9 @@ noremap <Leader>bn <ESC>:bn<CR>
 noremap <Leader>fs <ESC>:w<CR>
 noremap <Leader>fj <ESC>:Ex<CR>
 noremap <Leader>bx <ESC>:bd<CR>
+noremap <Leader>' <ESC>:terminal<CR>
+
+tnoremap <Esc> <C-\><C-n>
 
 noremap <Leader>fr <ESC>:ALEFindReferences<CR>
 

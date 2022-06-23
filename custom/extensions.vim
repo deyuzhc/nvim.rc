@@ -58,3 +58,5 @@ let g:UltiSnipsSnippetDirectories=["~/.config/nvim/snippets"]
 let g:vimwiki_list = [{'path': '~/vimwiki/',
                       \ 'syntax': 'markdown', 'ext': '.md'}]
 
+
+let g:jedi#environment_path = "/usr/local/bin/python"
