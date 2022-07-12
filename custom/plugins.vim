@@ -4,6 +4,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'adrian5/oceanic-next-vim'
 Plugin 'vimwiki/vimwiki'
 Plugin 'godlygeek/tabular'
 Plugin 'preservim/vim-markdown'

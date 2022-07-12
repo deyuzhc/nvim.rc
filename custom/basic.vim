@@ -4,7 +4,7 @@ syntax enable
 filetype on
 filetype plugin indent on
 
-colorscheme OceanicNext
+colorscheme oceanicnext
 
 set background=dark
 
