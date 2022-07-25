@@ -16,6 +16,7 @@ noremap <Leader>' <ESC>:terminal<CR>
 tnoremap <Esc> <C-\><C-n>
 
 noremap <Leader>fr <ESC>:ALEFindReferences<CR>
+noremap <Leader>ff <ESC>:LeaderfFile<CR>
 
 noremap <C-K> <C-U>
 noremap <C-J> <C-D>
