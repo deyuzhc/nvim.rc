@@ -53,3 +53,5 @@ git clone https://github.com/deyuzhc/nvim.rc.git ~/.config/nvim
 | `<Leader> ff`       | find files           |
 | `<Leader> bx`       | delete buffer        |
 | `<Leader> bb`       | toggle tagbar        |
+| `<Leader> hh`       | resize window        |
+| `<Leader> ll`       | resize window        |

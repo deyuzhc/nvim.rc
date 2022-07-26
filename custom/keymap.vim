@@ -28,6 +28,9 @@ noremap <Leader>bb <ESC>:TagbarToggle<CR>
 noremap <Leader>p <ESC>:Autopep8<CR>
 noremap <Leader>! <ESC>:!
 
+noremap <Leader>hh <C-W><
+noremap <Leader>ll <C-W>>
+
 nmap s <Plug>(easymotion-overwin-f2)
 
 map <Leader>j <Plug>(easymotion-j)
